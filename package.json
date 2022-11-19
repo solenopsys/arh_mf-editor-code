@@ -1,0 +1,11 @@
+{
+  "name": "@solenopsys/uimatrix-editor-code",
+  "version": "0.0.1",
+  "dependencies": {
+    "monaco-editor": "^0.33.0",
+    "ngx-monaco-editor": "^12.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.lib.json"
+  }
+}
