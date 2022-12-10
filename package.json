@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "monaco-editor": "^0.34.1",
-    "ngx-monaco-editor-v2": "^14.0.0"
+    "ngx-monaco-editor-v15": "^15.0.5"
   },
   "scripts": {
     "build": "tsc -p tsconfig.lib.json"
