@@ -1,0 +1,9 @@
+{
+  "name": "Code Editor",
+  "description": "Code editor",
+  "component": "EditorCode",
+  "package": "@solenopsys/uimatrix-editor-code",
+  "io": {
+
+  }
+}
