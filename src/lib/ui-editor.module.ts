@@ -20,7 +20,7 @@ const components:any = [
   exports: [
   ]
 })
-export class UIEditorCodeModule {
+export class UICodeEditorModule {
   constructor(private ds: DeclaredService) {
     ds.addComps("@solenopsys/uimatrix-editor-code", components)
   }
