@@ -1,9 +1,35 @@
 {
   "name": "Code Editor",
   "description": "Code editor",
-  "component": "EditorCode",
+  "component": "CodeAreaComponent",
   "package": "@solenopsys/uimatrix-editor-code",
   "io": {
-
-  }
+    "value": {
+      "directions": [
+        "input"
+      ],
+      "type": "string"
+    },
+    "language": {
+      "directions": [
+        "input"
+      ],
+      "type": "string"
+    },
+    "valueChange": {
+      "directions": [
+        "output"
+      ],
+      "type": "event"
+    }
+  },
+  "stories": [
+    {
+      "name": "Editor JS",
+      "params": {
+        "language": "javascript",
+        "value": "<b>console.log('Hello World')</b>"
+      }
+    }
+  ]
 }
