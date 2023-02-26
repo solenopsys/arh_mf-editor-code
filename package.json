@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/uimatrix-editor-code",
+  "name": "@solenopsys/ui-editor-code",
   "version": "0.0.1",
   "dependencies": {
     "monaco-editor": "^0.34.1",

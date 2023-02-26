@@ -1,16 +1,16 @@
 {
   "name": "code",
   "projectType": "library",
-  "sourceRoot": "packages/uimatrix/editors/code/src",
+  "sourceRoot": "packages/uimatrix/ui-editors/code/src",
   "prefix": "ui",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/packages/uimatrix/code/editors"
+        "coverage/packages/uimatrix/ui-code/editors"
       ],
       "options": {
-        "jestConfig": "packages/uimatrix/editors/jest.config.js",
+        "jestConfig": "packages/uimatrix/ui-editors/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -18,8 +18,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "packages/uimatrix/editors/code/src/**/*.ts",
-          "packages/uimatrix/editors/code/src/**/*.html"
+          "packages/uimatrix/ui-editors/code/src/**/*.ts",
+          "packages/uimatrix/ui-editors/code/src/**/*.html"
         ]
       },
       "outputs": [

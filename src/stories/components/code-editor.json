@@ -2,7 +2,7 @@
   "name": "Code Editor",
   "description": "Code editor",
   "component": "CodeAreaComponent",
-  "package": "@solenopsys/uimatrix-editor-code",
+  "package": "@solenopsys/ui-editor-code",
   "io": {
     "value": {
       "directions": [

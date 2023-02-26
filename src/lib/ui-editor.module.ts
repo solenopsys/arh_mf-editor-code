@@ -2,8 +2,8 @@ import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterModule} from '@angular/router';
 
-import {UIControlsModule} from '@solenopsys/uimatrix-controls';
-import {DeclaredService} from "@solenopsys/uimatrix-utils";
+import {UIControlsModule} from '@solenopsys/ui-controls';
+import {DeclaredService} from "@solenopsys/ui-utils";
 import {CodeAreaComponent} from "./code-area/code-area.component";
 import {FormsModule} from "@angular/forms";
 import {MonacoEditorModule, NgxMonacoEditorConfig} from "@tots/ngx-monaco-editor-v2";
@@ -42,6 +42,6 @@ const monacoConfig: NgxMonacoEditorConfig = {
 })
 export class UICodeEditorModule {
   constructor(private ds: DeclaredService) {
-    ds.addComps("@solenopsys/uimatrix-editor-code", components)
+    ds.addComps("@solenopsys/ui-editor-code", components)
   }
 }

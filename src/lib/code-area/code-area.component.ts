@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output, ViewChild} from '@angular/core';
 
-import {EntityTitle} from "@solenopsys/uimatrix-utils";
+import {EntityTitle} from "@solenopsys/ui-utils";
 
 
 @Component({
