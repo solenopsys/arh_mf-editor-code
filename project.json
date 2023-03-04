@@ -1,5 +1,5 @@
 {
-  "name": "code",
+  "name": "mf-code",
   "projectType": "library",
   "sourceRoot": "packages/uimatrix/ui-editors/code/src",
   "prefix": "ui",
