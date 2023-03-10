@@ -6,7 +6,7 @@ import {UIControlsModule} from '@solenopsys/ui-controls';
 import {DeclaredService} from "@solenopsys/ui-utils";
 import {CodeAreaComponent} from "./code-area/code-area.component";
 import {FormsModule} from "@angular/forms";
-import {MonacoEditorModule, NgxMonacoEditorConfig} from "@tots/ngx-monaco-editor-v2";
+import {MonacoEditorModule, NgxMonacoEditorConfig} from "ngx-monaco-editor-v2";
 
 const components:any = [
   CodeAreaComponent
