@@ -6,7 +6,7 @@ import {EntityTitle} from "@solenopsys/ui-utils";
 @Component({
   selector: 'ui-code-area',
   templateUrl: './code-area.component.html',
-  styleUrls: ['./code-area.component.css'],
+  styleUrls: ['./code-area.component.scss'],
 })
 export class CodeAreaComponent
   implements OnInit, OnDestroy
