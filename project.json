@@ -7,7 +7,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/modules/mf-code",
         "index": "packages/modules/mf-code/src/index.html",
@@ -18,7 +20,9 @@
           "./packages/modules/mf-code/src/favicon.ico",
           "packages/modules/mf-code/src/assets"
         ],
-        "styles": ["packages/modules/mf-code/src/styles.scss"],
+        "styles": [
+          "packages/modules/mf-code/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
