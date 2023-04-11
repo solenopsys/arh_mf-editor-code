@@ -6,6 +6,6 @@
     "ngx-monaco-editor-v2": "^15.0.1"
   },
   "scripts":{
-    "build": "tsc -p tsconfig.lib.json"
+    "build": "etsc -p tsconfig.lib.json"
   }
 }
