@@ -5,8 +5,7 @@
     "monaco-editor": "^0.38.0",
     "ngx-monaco-editor-v2": "^15.0.0",
     "@solenopsys/ui-templates": "^0.1.0",
-    "@solenopsys/ui-utils": "^0.1.0",
-    "@solenopsys/ui-editor-code": "^0.1.0"
+    "@solenopsys/ui-utils": "^0.1.0"
   },
   "scripts": {
     "build": "ng-packagr -p ng-package.json -c ../../../../tsconfig.base.json"
