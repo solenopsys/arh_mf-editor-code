@@ -1,7 +1,7 @@
 {
   "name": "@solenopsys/mf-editor-code",
   "version": "0.0.1",
-  "peerDependencies": {
+  "dependencies": {
     "monaco-editor": "^0.38.0",
     "ngx-monaco-editor-v2": "^15.0.0",
     "@solenopsys/ui-templates": "^0.1.0",
