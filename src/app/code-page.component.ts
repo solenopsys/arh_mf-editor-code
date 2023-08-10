@@ -7,7 +7,7 @@ import {Observable} from "rxjs";
 @Component(
     {
         selector: 'ui-code-page',
-        template: 'ok3<ui-code-area [value]="code" [language]="\'javascript\'" ></ui-code-area>',
+        template: '<ui-code-area [value]="code" [language]="\'javascript\'" ></ui-code-area>',
     }
 )
 export class CodePageComponent {
