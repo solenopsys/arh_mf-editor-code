@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/ui-editor-code",
+  "name": "@solenopsys/mf-editor-code",
   "version": "0.0.1",
   "peerDependencies": {
     "monaco-editor": "^0.38.0",
