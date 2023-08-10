@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 
 import {RouterModule, Routes} from '@angular/router';
 import {TABLE_PAGE} from "@solenopsys/ui-templates";
@@ -14,7 +13,6 @@ export const PROVIDERS_CONF = [
 ]
 
 export const IMPORTS_CONF = [
-  BrowserModule,
   RouterModule.forChild(routes),
   FormsModule,
 ]
