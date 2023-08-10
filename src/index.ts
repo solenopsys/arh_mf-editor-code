@@ -1,10 +1,9 @@
 import {XsModule, XsModuleType} from "@solenopsys/fl-globals";
-import {RemoteEntryModule} from "./app/entry.module";
-
-export * from './lib/ui-editor.module';
+import {UICodeEditorModule} from "./app/ui-editor.module";
 
 
-export const ENTRY:XsModule<RemoteEntryModule> ={
-    module: RemoteEntryModule,
+
+export const ENTRY:XsModule<UICodeEditorModule> ={
+    module: UICodeEditorModule,
     type: XsModuleType.PLATFORM,
 };

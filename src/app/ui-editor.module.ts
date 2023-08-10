@@ -7,10 +7,8 @@ import {DeclaredService} from "@solenopsys/ui-utils";
 import {CodeAreaComponent} from "./code-area/code-area.component";
 import {FormsModule} from "@angular/forms";
 import {MonacoEditorModule, NgxMonacoEditorConfig} from "ngx-monaco-editor-v2";
+import {CodePageComponent} from "./code-page.component";
 
-const components:any = [
-  CodeAreaComponent
-];
 export function onMonacoLoad() {
   console.log('MONACO START');
  // console.log('MONACO OK', (window as any).monaco);
@@ -27,14 +25,27 @@ const monacoConfig: NgxMonacoEditorConfig = {
 
 
 @NgModule({
-  declarations: components,
+  declarations: [
+    CodeAreaComponent,
+    CodePageComponent
+  ],
   imports: [
 
+
+    FormsModule,
     CommonModule,
     RouterModule,
     UIControlsModule,
     FormsModule,
+    RouterModule.forChild([
+      {
+        path: '',
+        component: CodePageComponent,
+      },
+      //   TABLE_PAGE(':table'),
+    ]),
     MonacoEditorModule.forRoot(monacoConfig),
+    MonacoEditorModule,
   ],
   providers: [],
   exports: [
@@ -42,6 +53,8 @@ const monacoConfig: NgxMonacoEditorConfig = {
 })
 export class UICodeEditorModule {
   constructor(private ds: DeclaredService) {
-    ds.addComps("@solenopsys/ui-editor-code", components)
+    ds.addComps("@solenopsys/ui-editor-code", [
+      CodeAreaComponent
+    ])
   }
 }
